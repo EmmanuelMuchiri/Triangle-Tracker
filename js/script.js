@@ -7,7 +7,11 @@ console.log("The numbers you entered are either less than or Equals to Zero or a
 else if
 (length===width && length===breadth && breadth===width)
 {
-console.log("This is an Equilateral Triangle because the length Are Equal");
+console.log("This is an Equilateral Triangle Since All The Dimensions Are Equal");
+}
+else if (length===width || length===breadth || breadth===width)
+{
+console.log("This is an Isosceles Triangle Since Two Dimensions Are Equal");
 }
 else
 {
