@@ -11,3 +11,8 @@ var triangleTracker = function(length, width, breadth) {
     console.log("Try again");
   }
 }
+var userLength=prompt("kindly enter the Length of the triangle to determine the type of triangle");
+var userBreadth=prompt("kindly enter the Length of the triangle to determine the type of triangle");
+var userHeight=prompt("kindly enter the Length of the triangle to determine the type of triangle");
+
+alert(triangleTracker(userLength,userBreadth,userHeight));
