@@ -23,7 +23,7 @@ body
   padding-top: 3%;
   padding-bottom: 3%
 }
-/*
+
 .bodyForm
 {
   padding-left: 2%;
@@ -32,4 +32,9 @@ body
 .bodyForm h3
 {
   text-align: center;
+}
+#submitButton
+{
+  margin-left: 40%;
+  font-size: 40px;
 }
