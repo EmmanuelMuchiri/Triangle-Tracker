@@ -8,27 +8,36 @@
   <title>Triangle Tracker</title>
 </head>
 <div class="appWindow">
-<div class="appHeader">
-  <header>
-    <h2>TRIANGLE TRACKER APPLICATION</h2>
-  </header>
+  <div class="appHeader">
+    <header>
+      <h2>TRIANGLE TRACKER APPLICATION</h2>
+    </header>
 
-</div>
-
-<body>
-  <div class="bodyForm">
-  <form action="">
-    <h4>Enter The Length Of The Triangle:</h4><br>
-    <input type="text" placeholder="length"><br>
-    <h4>Enter The Width Of The Triangle:</h4><br>
-    <input type="text" placeholder="Width"><br>
-    <h4>Enter The Height Of The Triangle:</h4><br>
-    <input type="text" placeholder="Height"><br><br>
-    <h3>To View The Type Of Triangle That Your Dimensions Can Construct</h3><br>
-    <input type="submit" placeholder="Submit" id="submitButton">
-  </form>
   </div>
-</body>
+
+  <body>
+
+    <div class="bodyForm">
+      <form class="bodyForm" method="get" name="dimensions" id="formElements">
+        <h4>Enter your Length : </h4>
+        <input type="integer" placeholder="Length" name="userLength" value="">
+        <h4>Enter your breadth : </h4>
+        <input type="integer" placeholder="Breadth" name="userBreadth" value="">
+        <h4>Enter your Height : </h4>
+        <input type="integer" placeholder="Height" name="userHeight" value="">
+        <h3>Click Submit to View The Type Of Triangle</h3>
+        <input type="button" id="submitButton" name="Submit" value="SUBMIT" onclick="triangleTracker()"></input><br>
+        <p>
+          <input type="button" id="submitButton" onclick="myFunction()" value="RESET">
+        </p>
+
+      </form>
+    </div>
+
+    <script src="js/styles.css" type="text/javascript">
+
+    </script>
+  </body>
 </div>
 
 </html>
