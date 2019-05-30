@@ -35,6 +35,26 @@ body
 }
 #submitButton
 {
-  margin-left: 40%;
-  font-size: 40px;
+  display: block;
+    width: 100%;
+    border: none;
+    background-color: gray;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+
+}
+#submitButtonOne
+{
+  display: block;
+    width: 100%;
+    border: none;
+    background-color: gray;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+
+}
 }

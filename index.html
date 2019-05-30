@@ -7,37 +7,44 @@
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <title>Triangle Tracker</title>
 </head>
-<div class="appWindow">
-  <div class="appHeader">
-    <header>
-      <h2>TRIANGLE TRACKER APPLICATION</h2>
-    </header>
-
-  </div>
-
-  <body>
-
-    <div class="bodyForm">
-      <form class="bodyForm" method="get" name="dimensions" id="formElements">
-        <h4>Enter your Length : </h4>
-        <input type="integer" placeholder="Length" name="userLength" value="">
-        <h4>Enter your breadth : </h4>
-        <input type="integer" placeholder="Breadth" name="userBreadth" value="">
-        <h4>Enter your Height : </h4>
-        <input type="integer" placeholder="Height" name="userHeight" value="">
-        <h3>Click Submit to View The Type Of Triangle</h3>
-        <input type="button" id="submitButton" name="Submit" value="SUBMIT" onclick="triangleTracker()"></input><br>
-        <p>
-          <input type="button" id="submitButton" onclick="myFunction()" value="RESET">
-        </p>
-
-      </form>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="appHeader">
+        <header>
+          <h2>TRIANGLE TRACKER APPLICATION</h2>
+        </header>
+      </div>
     </div>
 
-    <script src="js/styles.css" type="text/javascript">
-
-    </script>
-  </body>
+    <body>
+      <div class="appWindow">
+        <div class="col-lg-4">
+          <form class="bodyForm" method="get" name="dimensions" id="formElements">
+            <h2>Enter your Length : </h2>
+            <input type="number" placeholder="Length" name="userLength" value="">
+            <h2>Enter your breadth : </h2>
+            <input type="number" placeholder="Breadth" name="userBreadth" value="">
+            <h2>Enter your Height : </h2>
+            <input type="number" placeholder="Height" name="userHeight" value="">
+            <h3>Click Submit to View The Type Of Triangle</h3>
+        </div>
+        <div class="col-lg-4">
+          <input type="button" id="submitButton" name="Submit" value="SUBMIT" onclick="triangleTracker()">
+          <br><br>
+          <input type="button" id="submitButtonOne" onclick="myFunction()" value="RESET ME">
+        </div>
+        </form>
+      </div>
+  </div>
 </div>
+
+<script src="js/styles.css" type="text/javascript">
+
+</script>
+</body>
+<footer>
+
+</footer>
 
 </html>
