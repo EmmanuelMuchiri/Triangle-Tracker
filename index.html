@@ -20,19 +20,19 @@
     <body>
       <div class="appWindow">
         <div class="col-lg-4">
-          <form class="bodyForm" method="get" name="dimensions" id="formElements">
+          <form class="bodyForm" method="get" id="formElements">
             <h2>Enter your Length : </h2>
-            <input type="number" placeholder="Length" name="userLength" value="">
+            <input type="number" placeholder="Length" id="userLength" >
             <h2>Enter your breadth : </h2>
-            <input type="number" placeholder="Breadth" name="userBreadth" value="">
+            <input type="number" placeholder="Breadth" id="userBreadth">
             <h2>Enter your Height : </h2>
-            <input type="number" placeholder="Height" name="userHeight" value="">
+            <input type="number" placeholder="Height" id="userHeight">
             <h3>Click Submit to View The Type Of Triangle</h3>
         </div>
         <div class="col-lg-4">
-          <input type="button" id="submitButton" name="Submit" value="SUBMIT" onclick="triangleTracker()">
+          <input type="button" class="submitButton" value="SUBMIT" onclick="triangleTracker()">
           <br><br>
-          <input type="button" id="submitButtonOne" onclick="myFunction()" value="RESET ME">
+          <input type="button" class="submitButton" value="RESET ME" onclick="refresh()" >
         </div>
         </form>
       </div>
