@@ -13,14 +13,15 @@ var triangleTracker = function(length, width, breadth)
   {
     alert("This is an Equilateral Triangle Since All The Dimensions Are Equal");
   }
-  else if ((length + width) <= breadth || (length + breadth) <= width || (width + breadth) <= length)
-  {
-    alert("This is not a triangle");
-  }
   else if ((length === width )|| (length === breadth) || (breadth === width))
   {
     alert("This is an Isosceles Triangle Since Two Dimensions Are Equal");
   }
+  else if ((length + width) <= breadth || (length + breadth) <= width || (width + breadth) <= length)
+  {
+    alert("This is not a triangle");
+  }
+
   else
   {
     alert("This is a Scalene Triangle");
