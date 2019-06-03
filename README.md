@@ -16,8 +16,8 @@
 ##Behavior Driven Development
 | Behavior :      | Input | Output example     |
 | :---        |    :----:   |          ---: |
-| These dimensions cannot form a triangle      | 0,0,0       | The numbers you entered are either less than or Equals to Zero or are not Numbers   |
-| These dimensions cannot be null   | " "," "," "        | The numbers you entered are either less than or Equals to Zero or are not Numbers      |
+| These dimensions cannot form a triangle| 0,0,0| The numbers you entered are either less than or Equals to Zero or are not Numbers   |
+| These dimensions cannot be null| " "," "," "| The numbers you entered are either less than or Equals to Zero or are not Numbers      |
 | These dimensions form an Equilateral Triangle      | 9,9,9 | This is an Equilateral Triangle Since All The Dimensions Are Equal     |
 | These dimensions cannot form a triangle|    9,4,3 |This is not a triangle |
 |These dimensions form an isosceles triangle      | 8,6,8       | This is an Isosceles Triangle Since Two Dimensions Are Equal  |
