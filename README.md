@@ -13,7 +13,7 @@
 
 {This application shows you the type of the triangle based on your inputs.If all your dimensions are equal then it displays an Equilateral Triangle,an isosceles triangle, two sides are exactly equal.For a scalene triangle, none of the sides is equal. However, the sum of any two sides of the triangle must be greater than the third side.Most importantly, if the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed using those values. (For example, the values 9,4 & 3 cannot form a triangle.)  }
 
-##Behavior Driven Development
+
 | Syntax      | Description | Test Text     |
 | :---        |    :----:   |          ---: |
 | Header      | Title       | Here's this   |
